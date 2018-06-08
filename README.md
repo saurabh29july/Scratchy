@@ -16,13 +16,10 @@ Scratchy is a simple chat bot that from out-of-box corpus just knows how to say 
     #list - List all or #list <tag> notes
 
 _**What Scratchy does?**_
-*   Item 1 Integrates with Cisco Spark
-
-*   Item 2 Provides a blank corpus of hello/hi which can be used to build one's own scratchpad.
-
-*   Item 3 Json based corpus file makes Scratchy restart safe & also use corpus for different purposes.
-
-*   Item 4 No AI/ML for now.
+*   Integrates with Cisco Spark
+*   Provides a blank corpus of hello/hi which can be used to build one's own scratchpad.
+*   Json based corpus file makes Scratchy restart safe & also use corpus for different purposes.
+*   No AI/ML for now.
 
 _**Run Scratchy**_
 >Clone this repository
