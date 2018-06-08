@@ -26,7 +26,7 @@ _**Run Scratchy**_
 
 >pip install requirements.txt
 
->Add Cisco Spark Bot Details in scratchy.py for botEmail, accessToken, room_id
+>Add Cisco Spark Bot Details in scratchy.py for email, accessToken & roomId
 
 >python scratchy.py
 
