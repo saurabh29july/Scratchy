@@ -1,11 +1,10 @@
-# Scratchy
+## Scratchy
 
 *A simple cisco spark chatbot.*
 
 Scratchy is a simple chat bot that from out-of-box corpus just knows how to say hello!
 
-
-""" 
+@scratchy #help
 
     Hi! I'm Scratchy, your scratchpad for cheatsheets, notes etc etc.
 
@@ -16,6 +15,4 @@ Scratchy is a simple chat bot that from out-of-box corpus just knows how to say 
     #del <tag> - Delete notes with tag
     #list - List all or #list <tag> notes
 
-  
- """
 
