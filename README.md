@@ -1,6 +1,6 @@
 ## Scratchy
 
-*A simple cisco spark chatbot.*
+**A simple cisco spark chatbot.**
 
 Scratchy is a simple chat bot that from out-of-box corpus just knows how to say hello!
 
@@ -15,10 +15,20 @@ Scratchy is a simple chat bot that from out-of-box corpus just knows how to say 
     #del <tag> - Delete notes with tag
     #list - List all or #list <tag> notes
 
-*Assumptions:*
-You should have basic knowledge of python.
-All the requirements for the bot should be satisfied.
+_**What Scratchy does?**_
+*   Item 1 Integrates with Cisco Spark
 
-Start the bot: python scratchy.py
+*   Item 2 Provides a blank corpus of hello/hi which can be used to build one's own scratchpad.
 
-To use this bot or more details on integration visit my blog http://saurabh29july.blog/cisco-spark-chatbot-in-10-minutes
+*   Item 3 Json based corpus file makes Scratchy restart safe & also use corpus for different purposes.
+
+*   Item 4 No AI/ML for now.
+
+_**Run Scratchy**_
+>Clone this repository
+
+>pip install requirements.txt
+
+>python scratchy.py
+
+To use this bot or more details on integration visit my blog here.
