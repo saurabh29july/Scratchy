@@ -28,4 +28,4 @@ _**Run Scratchy**_
 
 >python scratchy.py
 
-To use this bot or more details on integration visit my blog here.
+To use this bot or more details on integration visit my blog http://saurabh29july.blog/building-a-simple-cisco-spark-chatbot.
