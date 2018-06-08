@@ -144,17 +144,15 @@ def sendMessage(message,  toPersonEmail):
 def helpText():
     answer = """ 
     ------------------------------------------------------------------    
-    **Hi! I'm Scratchy, your scratchpad for cheatsheets, notes etc etc.**
+    Hi! I'm Scratchy, your scratchpad for cheatsheets, notes etc etc.
 
-    @gene Hi - Talk to me!
+    @scratchy Hi - Talk to me!
     
     #help - See this again!
     #note <tag(s)> | <note>  - Note it down with , seperated tag(s)
     #del <tag> - Delete notes with tag
     #list - List all or #list <tag> notes
 
-    -------------------------------------------------------------------
-    Like me to do something? Ping sakuagar@cisco.com (!= bot)
     -------------------------------------------------------------------
             """
 
