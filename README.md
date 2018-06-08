@@ -15,4 +15,10 @@ Scratchy is a simple chat bot that from out-of-box corpus just knows how to say 
     #del <tag> - Delete notes with tag
     #list - List all or #list <tag> notes
 
+*Assumptions:*
+You should have basic knowledge of python.
+All the requirements for the bot should be satisfied.
+
+Start the bot: python scratchy.py
+
 To use this bot or more details on integration visit my blog http://saurabh29july.blog/cisco-spark-chatbot-in-10-minutes
