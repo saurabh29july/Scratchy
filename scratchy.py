@@ -10,12 +10,12 @@ from datetime import datetime
 
 
 #CISCO Spark Bot Details
-botEmail = ""
+email = ""
 accessToken = ""
-room_id = ""
+roomId = ""
 
 #CISCO Spark API Details
-host = "https://api.ciscospark.com/v1/"
+sparkApi = "https://api.ciscospark.com/v1/messages/"
 headers = {"Authorization": "Bearer %s" % accessToken,"Content-Type": "application/json"}
 
 #Server Details
@@ -28,8 +28,8 @@ corpus = ""
 @app.route('/', methods=['POST'])
 def chat():
     messageId = request.json.get('data').get('id')
-    messageDetails = requests.get(host+"messages/"+messageId, headers=headers)
-    inspectQuestion(messageDetails)
+    question = requests.get(sparkApi+messageId, headers=headers)
+    inspectQuestion(question)
     return ""
 
 def inspectQuestion(question):
@@ -39,7 +39,7 @@ def inspectQuestion(question):
     print ('(' + questioner + ') says: ' + questionAsked)
     answer = ""
 
-    if questioner != botEmail:
+    if questioner != email:
 
         if "#help" in questionAsked:
             answer = helpText()
@@ -137,8 +137,8 @@ def sendMessage(message,  toPersonEmail):
     if toPersonEmail != "":
         if message == "":
             message = 'Lolz.. cannot help with that! Maybe #help?'
-        payload = {"roomId": room_id, "text": message}
-        response = requests.request("POST","https://api.ciscospark.com/v1/messages/", data=json.dumps(payload),  headers=headers)
+        payload = {"roomId": roomId, "text": message}
+        response = requests.request("POST",sparkApi, data=json.dumps(payload),  headers=headers)
         return response.status_code
 
 def helpText():
