@@ -26,6 +26,8 @@ _**Run Scratchy**_
 
 >pip install requirements.txt
 
+>Add Cisco Spark Bot Details in scratchy.py for botEmail, accessToken, room_id
+
 >python scratchy.py
 
 To use this bot or more details on integration visit my blog http://saurabh29july.blog/building-a-simple-cisco-spark-chatbot.
